@@ -22,5 +22,5 @@ Gem::Specification.new do |s|
   s.add_dependency("orm_adapter", "~> 0.1")
   s.add_dependency("bcrypt", "~> 3.0")
   s.add_dependency("railties", ">= 4.1.0", "< 5.2")
-  s.add_dependency("responders")
+  s.add_dependency("responders", '~> 2.4')
 end
